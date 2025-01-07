@@ -1,0 +1,35 @@
+body{
+    display:block;
+    margin: 25;
+    padding: 5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(45, 45, 45);
+    color: lightgreen;
+}
+
+.calculator{
+    align-items: center;
+    max-width: fit-content;
+    padding: 10px;
+    border: 2px solid black;
+}
+button{
+    display: inline-block;
+    font-size:large;
+    width: 50px;
+    height: 40px;
+    color: black;;
+}
+button:hover{
+    background-color: skyblue;
+}
+input{
+    max-width:fit-content;
+    height: 30px;
+    font-size: large;
+}
+
+#result{
+    font-size: large;
+    font-weight: bold;
+}

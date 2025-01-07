@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <div class="Calculator">
+        <h1>Basic Calculator</h1>
+        <h3><label for="num1">Enter First Number</label></h3>
+        <input type="number" name="num1" id="num1"><br>
+        <h3><label for="num2">Enter Second Number</label></h3>
+        <input type="number" name="num2" id="num2">
+
+        <h3>Operation</h3>
+        <button onclick="calculate('add')" id="add"><strong>+</strong></button>
+        <button onclick="calculate('sub')" id="sub"><strong>-</strong></button>
+        <button onclick="calculate('mul')" id="mul"><strong>x</strong></button>
+        <button onclick="calculate('div')" id="div"><strong>/</strong></button>
+
+        <br><p id="result"></p>
+    </div>
+
+    <script src="./basic_calculator.js"></script>
+
+</body>
+</html>
